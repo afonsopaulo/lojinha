@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  loja-app:
+    build: .
+    container_name: landing_loja
+    restart: always
+    ports:
+      - "3000:3000"
+      - "3333:3333"
